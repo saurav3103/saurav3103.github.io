@@ -1,53 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="Saurav Avachat — MSc Systems & Control student at TU Delft working across control, estimation, signal processing, and intelligent physical systems." />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Saurav Avachat — Systems & Control Engineer</title>
+<meta name="description" content="Saurav Avachat, MSc Systems & Control student at TU Delft. Optimal control, state estimation, signal processing, and intelligent physical systems.">
+<meta name="theme-color" content="#0a1422">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Saurav Avachat — Systems & Control Engineer">
+<meta property="og:description" content="Control, estimation, and signal processing for real physical systems. MSc at TU Delft.">
+<meta property="og:url" content="https://saurav3103.github.io/">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a1422'/%3E%3Cpath d='M10 40 24 24 34 44 54 16' fill='none' stroke='%236ee7f9' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=Public+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#07111f;--panel:#0d1a2b;--panel2:#102238;--text:#eef5ff;--muted:#9bb0c9;--cyan:#6ee7f9;--line:rgba(159,190,222,.17);--green:#a7f3d0}
-*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:radial-gradient(ellipse at 80% 0%,rgba(21,83,112,.22),transparent 34%),var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65}a{color:inherit;text-decoration:none}a:hover{color:var(--cyan)}.wrap{width:min(1120px,calc(100% - 40px));margin:auto}.nav{position:sticky;top:0;z-index:10;background:rgba(7,17,31,.84);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}.navin{height:72px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{font-weight:750;letter-spacing:-.04em}.brand span{color:var(--cyan)}.links{display:flex;gap:24px;font-size:.91rem;color:var(--muted)}.menu{display:none;background:none;border:1px solid var(--line);color:var(--text);padding:8px 11px;border-radius:10px}.hero{padding:104px 0 76px;display:grid;grid-template-columns:1.35fr .65fr;gap:64px;align-items:center}.eyebrow{color:var(--cyan);font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;font-weight:750}.hero h1{font-size:clamp(2.8rem,6vw,5.1rem);line-height:1.02;letter-spacing:-.065em;margin:18px 0 22px}.hero h1 em{font-style:normal;color:var(--cyan)}.lead{font-size:1.14rem;color:#b6c8dc;max-width:680px}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}.btn{padding:12px 18px;border-radius:11px;border:1px solid var(--line);font-weight:700;font-size:.92rem;display:inline-flex;align-items:center;gap:9px}.btn.primary{background:var(--cyan);color:#06202a;border-color:var(--cyan)}.btn:hover{transform:translateY(-2px);transition:.2s}.hero-card{border:1px solid var(--line);background:linear-gradient(145deg,rgba(16,34,56,.9),rgba(8,20,35,.92));border-radius:22px;padding:24px;position:relative;overflow:hidden}.hero-card:before{content:"";position:absolute;width:190px;height:190px;border:1px solid rgba(110,231,249,.18);border-radius:50%;right:-70px;top:-80px;box-shadow:0 0 0 24px rgba(110,231,249,.035),0 0 0 48px rgba(110,231,249,.025)}.orbit{height:180px;display:grid;place-items:center;position:relative}.orbit svg{width:100%;max-width:270px}.stats{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:18px}.stat{padding:14px;background:rgba(4,13,24,.55);border:1px solid var(--line);border-radius:13px}.stat strong{display:block;font-size:1.3rem;color:var(--cyan)}.stat span{color:var(--muted);font-size:.8rem}.section{padding:72px 0;border-top:1px solid var(--line)}.section-head{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:30px}.kicker{color:var(--cyan);text-transform:uppercase;letter-spacing:.16em;font-weight:750;font-size:.74rem}.section h2{font-size:clamp(1.9rem,4vw,3rem);letter-spacing:-.05em;line-height:1.12;margin:8px 0}.sub{color:var(--muted);max-width:620px;margin:0}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.card{background:linear-gradient(150deg,rgba(15,32,52,.92),rgba(9,22,37,.9));border:1px solid var(--line);border-radius:17px;padding:23px;transition:transform .2s,border-color .2s}.card:hover{transform:translateY(-3px);border-color:rgba(110,231,249,.42)}.cardtop{display:flex;justify-content:space-between;gap:14px;align-items:start}.iconbox{height:42px;width:42px;display:grid;place-items:center;background:rgba(110,231,249,.1);border:1px solid rgba(110,231,249,.18);border-radius:12px;color:var(--cyan);font-size:1.1rem;flex-shrink:0}.tag{font-size:.72rem;color:var(--cyan);border:1px solid rgba(110,231,249,.23);padding:4px 8px;border-radius:100px;white-space:nowrap}.card h3{font-size:1.13rem;letter-spacing:-.02em;margin:16px 0 8px}.card p{color:var(--muted);font-size:.93rem;margin:0}.chips{display:flex;gap:7px;flex-wrap:wrap;margin-top:16px}.chip{font-size:.73rem;color:#c0d2e5;border:1px solid var(--line);padding:4px 8px;border-radius:7px}.repo-link{display:inline-flex;align-items:center;gap:7px;margin-top:17px;color:var(--cyan);font-size:.86rem;font-weight:750}.repo-link:hover{text-decoration:underline}.timeline{display:grid;gap:14px}.timeline-item{display:grid;grid-template-columns:170px 1fr;gap:24px;padding:21px 0;border-bottom:1px solid var(--line)}.date{color:var(--cyan);font-size:.84rem;font-weight:700}.timeline h3{margin:0;font-size:1.08rem}.org{color:#c2d3e5;font-weight:600}.detail{color:var(--muted);font-size:.92rem;margin-top:7px}.edu{display:grid;grid-template-columns:1fr 1fr;gap:16px}.edu .card{padding:24px}.degree{font-weight:700;margin-top:8px}.metric{font-size:1.65rem;font-weight:800;color:var(--cyan);letter-spacing:-.04em}.publication{padding:18px 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:44px 1fr;gap:16px}.pubnum{font-size:1.2rem;color:var(--cyan);font-weight:800}.publication h3{margin:0 0 5px;font-size:1rem}.publication p{margin:0;color:var(--muted);font-size:.9rem}.skills{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}.skill{padding:17px;border:1px solid var(--line);background:rgba(13,26,43,.65);border-radius:13px}.skill strong{display:block;margin-bottom:5px}.skill span{color:var(--muted);font-size:.88rem}.contact{display:flex;justify-content:space-between;gap:28px;align-items:center;padding:34px;border:1px solid rgba(110,231,249,.25);background:linear-gradient(120deg,rgba(15,52,70,.5),rgba(13,26,43,.7));border-radius:20px}.contact h3{font-size:1.8rem;letter-spacing:-.04em;margin:5px 0}.contact p{color:var(--muted);margin:0}.footer{padding:30px 0 40px;color:var(--muted);font-size:.82rem;display:flex;justify-content:space-between;gap:16px}.note{color:#7f96b0;font-size:.77rem;margin-top:14px}
-@media(max-width:760px){.links{display:none;position:absolute;top:72px;left:0;right:0;background:#091727;padding:18px 22px;border-bottom:1px solid var(--line);flex-direction:column;gap:14px}.links.open{display:flex}.menu{display:block}.hero{grid-template-columns:1fr;gap:34px;padding-top:72px}.hero-card{max-width:430px}.grid,.edu,.skills{grid-template-columns:1fr}.timeline-item{grid-template-columns:1fr;gap:5px}.section-head{display:block}.section-head .sub{margin-top:12px}.contact{display:block;padding:25px}.contact .btn{margin-top:20px}.footer{flex-direction:column}.wrap{width:min(100% - 30px,1120px)}}
+:root{--bg:#0a1422;--panel:#0f1d31;--ink:#e8eff8;--muted:#9aaec6;--line:rgba(154,174,198,.2);--est:#6ee7f9;--meas:#f2b866;--serif:Newsreader,Georgia,"Times New Roman",serif;--sans:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1rem/1.65 var(--sans)}
+a{color:inherit;text-decoration:none}
+a:hover{color:var(--est)}
+:focus-visible{outline:2px solid var(--est);outline-offset:3px;border-radius:4px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--est);color:#06202a;padding:8px 14px;border-radius:8px;z-index:20}
+.skip:focus{left:8px}
+.wrap{width:min(1080px,calc(100% - 40px));margin:auto}
+.nav{position:sticky;top:0;z-index:10;background:rgba(10,20,34,.88);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.navin{height:64px;display:flex;align-items:center;justify-content:space-between}
+.brand{font:600 1.25rem var(--serif)}
+.links{display:flex;gap:26px;font-size:.9rem;color:var(--muted)}
+.links a[aria-current=true]{color:var(--est)}
+.menu{display:none;background:none;border:1px solid var(--line);color:var(--ink);padding:7px 12px;border-radius:8px;font:inherit}
+h1,h2,h3{font-family:var(--serif);font-weight:600;margin:0;line-height:1.1}
+.hero{padding:88px 0 56px}
+.hero h1{font-size:clamp(2.6rem,6.4vw,5rem);letter-spacing:-.025em;max-width:15ch}
+.lead{font-size:1.15rem;color:#b9cade;max-width:62ch;margin:22px 0 0}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.btn{padding:11px 18px;border-radius:8px;border:1px solid var(--line);font-weight:500;font-size:.92rem}
+.btn.primary{background:var(--est);color:#06202a;border-color:var(--est)}
+.btn.primary:hover{color:#06202a;filter:brightness(1.1)}
+.live{margin-top:48px;border:1px solid var(--line);border-radius:12px;background:var(--panel);padding:16px 18px 12px}
+.live canvas{width:100%;height:190px;display:block}
+.legend{display:flex;flex-wrap:wrap;gap:6px 22px;font-size:.82rem;color:var(--muted);margin-top:8px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:7px}
+.facts{display:flex;flex-wrap:wrap;gap:8px 36px;margin-top:26px;color:var(--muted);font-size:.92rem}
+.facts b{color:var(--ink);font-weight:700}
+.section{padding:68px 0;border-top:1px solid var(--line)}
+.section h2{font-size:clamp(1.8rem,3.6vw,2.6rem);letter-spacing:-.02em;max-width:22ch}
+.sub{color:var(--muted);max-width:60ch;margin:12px 0 0}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:48px;margin-top:34px}
+.about h3{font-size:1.3rem;margin-bottom:8px}
+.about p{margin:0 0 14px;color:#b9cade}
+.next{margin-top:30px;padding:20px 22px;border-left:3px solid var(--est);background:var(--panel);border-radius:0 10px 10px 0;max-width:72ch}
+.next p{margin:6px 0 0;color:#b9cade}
+.list{margin-top:30px}
+.row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.7fr) 140px;gap:12px 32px;padding:24px 0;border-top:1px solid var(--line)}
+.row:last-child{border-bottom:1px solid var(--line)}
+.row h3{font-size:1.2rem}
+.kind{color:var(--muted);font-size:.84rem;margin-top:4px}
+.row p{margin:0;color:#b9cade;font-size:.95rem}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px;padding:0;list-style:none}
+.chips li{font-size:.76rem;color:#c3d3e6;border:1px solid var(--line);padding:2px 8px;border-radius:6px}
+.src{font-size:.88rem;font-weight:500;color:var(--est);justify-self:end;white-space:nowrap}
+.src:hover{text-decoration:underline}
+.src.none{color:var(--muted);font-weight:400}
+.tl{display:grid;grid-template-columns:160px 1fr;gap:4px 28px;padding:22px 0;border-top:1px solid var(--line)}
+.tl:first-of-type{margin-top:30px}
+.date{color:var(--est);font-size:.88rem;font-weight:500}
+.tl h3{font-size:1.15rem}
+.org{color:#c9d8ea;font-size:.95rem}
+.tl p{margin:6px 0 0;color:var(--muted);font-size:.93rem}
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-top:30px}
+.duo h3{font-size:1.2rem;margin-bottom:4px}
+.duo p{margin:6px 0 0;color:#b9cade;font-size:.95rem}
+.sect{font-size:1.5rem;margin-top:52px}
+.pub{padding:16px 0;border-top:1px solid var(--line);max-width:80ch}
+.pub h3{font-size:1.05rem;font-family:var(--sans);font-weight:500;line-height:1.4}
+.pub p{margin:5px 0 0;color:var(--muted);font-size:.9rem}
+dl{display:grid;grid-template-columns:200px 1fr;gap:0 28px;margin:30px 0 0}
+dt{font-weight:700;padding:14px 0;border-top:1px solid var(--line)}
+dd{margin:0;padding:14px 0;border-top:1px solid var(--line);color:var(--muted);font-size:.95rem}
+.contact h2{max-width:none}
+.footer{padding:26px 0 40px;color:var(--muted);font-size:.84rem;border-top:1px solid var(--line)}
+@media(max-width:780px){
+.links{display:none;position:absolute;top:64px;left:0;right:0;background:#0c192b;padding:16px 22px;border-bottom:1px solid var(--line);flex-direction:column;gap:14px}
+.links.open{display:flex}.menu{display:block}
+.hero{padding-top:56px}.about,.duo{grid-template-columns:1fr;gap:28px}
+.row{grid-template-columns:1fr}.src{justify-self:start}
+.tl{grid-template-columns:1fr}dl{grid-template-columns:1fr}dt{border-bottom:0;padding-bottom:0}dd{border-top:0;padding-top:4px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style>
 </head>
 <body>
-<header class="nav"><div class="wrap navin"><a class="brand" href="#home">SA<span>.</span></a><nav class="links" id="navlinks"><a href="#about">About</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#research">Research</a><a href="#contact">Contact</a></nav><button class="menu" id="menu" aria-label="Toggle navigation">Menu ☰</button></div></header>
-<main id="home">
-<section class="wrap hero">
-<div><div class="eyebrow">Systems · Control · Estimation</div><h1>Engineering the space between <em>models</em> and reality.</h1><p class="lead">I’m Saurav Avachat, an MSc Systems & Control student at TU Delft. I work across optimal control, state estimation, signal processing, and intelligent physical systems—with experience spanning industrial automation and machine learning for sensors.</p><div class="actions"><a class="btn primary" href="#projects">Explore my work <span>↘</span></a><a class="btn" href="mailto:saurav310304@gmail.com">Get in touch ↗</a><a class="btn" href="https://github.com/saurav3103" target="_blank" rel="noreferrer">GitHub ↗</a></div></div>
-<aside class="hero-card"><div class="orbit"><svg viewBox="0 0 300 190" fill="none" aria-label="Abstract systems diagram"><circle cx="150" cy="95" r="66" stroke="#6ee7f9" stroke-opacity=".55" stroke-dasharray="4 7"/><circle cx="150" cy="95" r="43" stroke="#6ee7f9" stroke-opacity=".28"/><path d="M28 95H101M199 95H272M150 14V51M150 139V176" stroke="#6ee7f9" stroke-opacity=".65"/><rect x="104" y="49" width="92" height="92" rx="15" fill="#102b40" stroke="#6ee7f9"/><path d="M119 100L139 80L153 111L177 73" stroke="#6ee7f9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="28" cy="95" r="4" fill="#a7f3d0"/><circle cx="272" cy="95" r="4" fill="#a7f3d0"/><circle cx="150" cy="14" r="4" fill="#a7f3d0"/><circle cx="150" cy="176" r="4" fill="#a7f3d0"/></svg></div><div class="eyebrow">Current chapter</div><h3 style="margin:7px 0 0">TU Delft · MSc Systems & Control</h3><p style="color:var(--muted);font-size:.88rem;margin:6px 0 0">Building deeper foundations in control, optimization, and statistical signal processing.</p><div class="stats"><div class="stat"><strong>9.18/10</strong><span>BTech CGPA · VNIT</span></div><div class="stat"><strong>3/120</strong><span>Class rank · VNIT ECE</span></div></div></aside>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav"><div class="wrap navin">
+<a class="brand" href="#home">Saurav Avachat</a>
+<nav class="links" id="navlinks" aria-label="Main"><a href="#about">About</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#research">Research</a><a href="#toolkit">Toolkit</a><a href="#contact">Contact</a></nav>
+<button class="menu" id="menu" aria-expanded="false" aria-controls="navlinks">Menu</button>
+</div></header>
+
+<main id="main">
+<section class="wrap hero" id="home">
+<h1>Engineering the space between models and reality.</h1>
+<p class="lead">I’m an MSc Systems & Control student at TU Delft. I work on optimal control, state estimation, signal processing, and intelligent physical systems, with experience in industrial automation and machine learning for sensors.</p>
+<div class="actions"><a class="btn primary" href="#projects">See projects</a><a class="btn" href="mailto:saurav310304@gmail.com">Email me</a><a class="btn" href="https://github.com/saurav3103" target="_blank" rel="noreferrer">GitHub</a></div>
+<div class="live">
+<canvas id="kf" role="img" aria-label="Live Kalman filter: a noisy measurement of a sine wave is smoothed into a state estimate that tracks the true signal."></canvas>
+<div class="legend"><span><i style="background:var(--meas)"></i>Noisy measurement</span><span><i style="background:var(--est)"></i>Kalman estimate</span><span><i style="background:#5d7392"></i>True state</span></div>
+</div>
+<div class="facts"><span><b>9.18/10</b> BTech CGPA, VNIT Nagpur</span><span><b>3 of 120</b> class rank, ECE</span><span><b>MSc</b> TU Delft, 2026–2028</span></div>
 </section>
-<section class="section" id="about"><div class="wrap"><div class="section-head"><div><div class="kicker">01 / About</div><h2>From theory to working systems.</h2></div><p class="sub">I’m interested in methods that make real-world systems more observable, stable, efficient, and intelligent.</p></div><div class="grid"><article class="card"><div class="cardtop"><div class="iconbox">⌁</div><span class="tag">Theory</span></div><h3>Control & optimization</h3><p>Optimal control, LQR/LQG, nonlinear system modelling, state observers, and optimization methods for dynamic systems.</p><div class="chips"><span class="chip">LQR / LQG</span><span class="chip">State estimation</span><span class="chip">Model-based design</span></div></article><article class="card"><div class="cardtop"><div class="iconbox">∿</div><span class="tag">Inference</span></div><h3>Signal processing & estimation</h3><p>Statistical signal processing, filtering, disturbance estimation, and data-driven methods grounded in physical systems.</p><div class="chips"><span class="chip">Kalman filtering</span><span class="chip">DSP</span><span class="chip">Sensor systems</span></div></article></div></div></section>
-<section class="section" id="projects"><div class="wrap"><div class="section-head"><div><div class="kicker">02 / Selected work</div><h2>Projects built around systems thinking.</h2></div><p class="sub">Simulation, algorithm design, and verification—each project starts with a model and asks what can be learned or improved.</p></div><div class="grid">
-<article class="card"><div class="cardtop"><div class="iconbox">↗</div><span class="tag">Control systems</span></div><h3>Wind Turbine Control & State Observer</h3><p>Built a nonlinear two-mass drivetrain simulation with below-rated MPPT, gain-scheduled pitch regulation, and a Luenberger observer for aerodynamic torque estimation.</p><div class="chips"><span class="chip">Python</span><span class="chip">PID</span><span class="chip">Observers</span><span class="chip">NREL 5MW</span></div><a class="repo-link" href="https://github.com/saurav3103/Wind-Turbine-Control" target="_blank" rel="noreferrer">View source on GitHub ↗</a></article>
-<article class="card"><div class="cardtop"><div class="iconbox">◎</div><span class="tag">Optics + control</span></div><h3>Adaptive Optics-Inspired Control</h3><p>Designed a closed-loop optical simulation and compared PI, pseudoinverse-based control, and LQG with a harmonic disturbance model for feedforward cancellation.</p><div class="chips"><span class="chip">Kalman filter</span><span class="chip">Welch PSD</span><span class="chip">LQG</span><span class="chip">Python</span></div><a class="repo-link" href="https://github.com/saurav3103/Adaptive-Optics-Control" target="_blank" rel="noreferrer">View source on GitHub ↗</a></article>
-<article class="card"><div class="cardtop"><div class="iconbox">⌘</div><span class="tag">C++ engineering</span></div><h3>State-Space Control & Estimation Library</h3><p>Implemented DARE-based LQR, a discrete-time Kalman filter, Luenberger observer, and a combined LQG controller in a modular C++17/Eigen library with automated tests.</p><div class="chips"><span class="chip">C++17</span><span class="chip">Eigen</span><span class="chip">CMake</span><span class="chip">Google Test</span></div><a class="repo-link" href="https://github.com/saurav3103/cpp-control-toolkit" target="_blank" rel="noreferrer">View source on GitHub ↗</a></article>
-<article class="card"><div class="cardtop"><div class="iconbox">⌁</div><span class="tag">Optimal control</span></div><h3>TV-LQR vs LQG Lane-Keeping</h3><p>Compared finite-horizon TV-LQR with Kalman-filter-based LQG on a nonlinear bicycle model, using paired noise and an open-loop optimal-control baseline.</p><div class="chips"><span class="chip">Riccati recursion</span><span class="chip">CasADi/IPOPT</span><span class="chip">State estimation</span></div><a class="repo-link" href="https://github.com/saurav3103/TV-LQR-VS-LQG" target="_blank" rel="noreferrer">View source on GitHub ↗</a></article>
-<article class="card"><div class="cardtop"><div class="iconbox">◇</div><span class="tag">Optimization</span></div><h3>Control-Theoretic Equilibrium Selection</h3><p>Explored an LQR/Riccati-based proxy for ranking equilibria of multimodal functions, validated on synthetic landscapes and a 3-link planar robot inverse-kinematics problem.</p><div class="chips"><span class="chip">MATLAB</span><span class="chip">ARE</span><span class="chip">Robot IK</span></div><a class="repo-link" href="https://github.com/saurav3103/Control-Theoretic-Equilibrium-Selection-CTES-" target="_blank" rel="noreferrer">View source on GitHub ↗</a></article>
-<article class="card"><div class="cardtop"><div class="iconbox">▦</div><span class="tag">Digitalization</span></div><h3>PLC Digital Twin & HIL Simulation</h3><p>At Siemens, developed an S7-1200 digital twin for nine automation scenarios and a browser-based simulation layer to validate control logic before physical deployment.</p><div class="chips"><span class="chip">Siemens PLC</span><span class="chip">HIL</span><span class="chip">Automation</span></div></article>
-<article class="card"><div class="cardtop"><div class="iconbox">⌖</div><span class="tag">Sensor fusion</span></div><h3>IMU Orientation Estimation</h3><p>Compared classical orientation filters (Madgwick, Mahony, EKF) with LSTM and Transformer models for roll, pitch, and yaw estimation against motion-capture ground truth.</p><div class="chips"><span class="chip">Python</span><span class="chip">Kalman filter</span><span class="chip">Sensor fusion</span><span class="chip">Deep learning</span></div><a class="repo-link" href="https://github.com/saurav3103/IMU-Orientation-Estimation" target="_blank" rel="noreferrer">View source on GitHub ↗</a></article>
-</div><p class="note">Project summaries are based on my CV. Source code and additional technical write-ups can be linked here as they are published.</p></div></section>
-<section class="section" id="experience"><div class="wrap"><div class="section-head"><div><div class="kicker">03 / Experience</div><h2>Industry experience.</h2></div><p class="sub">Working with real automation environments has shaped how I approach modelling, testing, and deployment.</p></div><div class="timeline">
-<div class="timeline-item"><div class="date">Jan — May 2026</div><div><h3>Digitalization and Automation Intern</h3><div class="org">Siemens Ltd. · Digital Industries</div><div class="detail">Built an S7-1200 digital twin and browser-based simulation workflows for control-logic validation; contributed to an operator-training platform.</div></div></div>
-<div class="timeline-item"><div class="date">May — Aug 2025</div><div><h3>Distributed Control Systems & Automation Intern</h3><div class="org">ABB Ltd. · Process Automation</div><div class="detail">Developed and validated control logic for a cold rolling mill DCS, modernized HMI displays, and integrated diagnostic visibility with process data flows.</div></div></div>
-<div class="timeline-item"><div class="date">May — Jul 2024</div><div><h3>Technical Embedded Systems Intern</h3><div class="org">Godrej & Boyce · Security Solutions Design</div><div class="detail">Prototyped embedded control logic for a smart locking system using the TI MSPM0G3507 microcontroller and UART/I²C communication.</div></div></div>
-</div></div></section>
-<section class="section" id="research"><div class="wrap"><div class="section-head"><div><div class="kicker">04 / Research & education</div><h2>Research with physical context.</h2></div><p class="sub">Combining computational methods with the structure of the systems that generate the data.</p></div><div class="grid">
-<article class="card"><div class="cardtop"><div class="iconbox">⌬</div><span class="tag">Machine learning</span></div><h3>Advanced Materials and Devices Laboratory</h3><p class="org">Jeonbuk National University · Research Intern</p><p style="margin-top:8px">Developed physics-guided machine-learning models for electrochemical sensor response prediction and contributed to a manuscript under review at <em>Measurement</em>.</p><div class="chips"><span class="chip">XGBoost</span><span class="chip">Physics-guided ML</span><span class="chip">Sensors</span></div></article>
-<article class="card"><div class="cardtop"><div class="iconbox">▧</div><span class="tag">Medical imaging</span></div><h3>MedIA Lab · Undergraduate Thesis</h3><p class="org">VNIT Nagpur</p><p style="margin-top:8px">Benchmarked seven Mask R-CNN encoder-decoder variants for oropharyngeal tumour segmentation, with a focus on reproducible evaluation across tumour stages.</p><div class="chips"><span class="chip">PyTorch</span><span class="chip">Mask R-CNN</span><span class="chip">Segmentation</span></div></article></div>
-<div class="section-head" style="margin-top:44px"><div><div class="kicker">Education</div><h2>Foundations.</h2></div></div><div class="edu">
-<div class="card"><div class="metric">2026 — 2028</div><h3 style="margin-bottom:4px">Delft University of Technology</h3><div class="degree">MSc Systems & Control Engineering</div><p style="margin-top:8px">Delft, The Netherlands · Delft Centre for Systems and Control</p><div class="chips"><span class="chip">Control Theory</span><span class="chip">Optimization</span><span class="chip">Statistical Signal Processing</span></div></div>
-<div class="card"><div class="metric">9.18 / 10</div><h3 style="margin-bottom:4px">VNIT Nagpur</h3><div class="degree">BTech Electronics & Communication Engineering</div><p style="margin-top:8px">Ranked 3rd of 120 · Minor in VLSI (9.53/10)</p><div class="chips"><span class="chip">Digital Signal Processing</span><span class="chip">Control Systems</span><span class="chip">Adaptive DSP</span></div></div></div>
-<h3 style="margin-top:40px">Selected publications</h3><div class="publication"><div class="pubnum">01</div><div><h3>Machine Learning-Assisted Optimization of High-Performance ZnO@Graphene Oxide Sensors for Trace Metal Ion Detection</h3><p>Eun-Bi Kim, S. Avachat, S. Ameen, A.S. Akhtar · <em>Measurement</em> (Elsevier), under review, 2026.</p></div></div><div class="publication"><div class="pubnum">02</div><div><h3>Physics-Guided Machine Learning Optimization of ZIF-8/Co–N–C Nanocomposite Sensors for Electrochemical Detection of Cr(III) and Hg(II)</h3><p>Manuscript in preparation, 2026.</p></div></div>
+
+<section class="section" id="about"><div class="wrap">
+<h2>From theory to working systems.</h2>
+<p class="sub">I’m interested in methods that make real systems more observable, stable, efficient, and intelligent.</p>
+<div class="about">
+<div><h3>Control and optimization</h3><p>Optimal control, LQR/LQG, nonlinear system modelling, state observers, and optimization for dynamic systems.</p></div>
+<div><h3>Signal processing and estimation</h3><p>Statistical signal processing, Kalman filtering, disturbance estimation, and data-driven methods grounded in physical models.</p></div>
+</div>
+<div class="next"><h3>Where I’m heading</h3><p>Stochastic and sparse signal processing, nonlinear control, and imaging systems and optics. These build on the estimation and control work below, especially the adaptive optics-inspired project.</p></div>
 </div></section>
-<section class="section" id="skills"><div class="wrap"><div class="section-head"><div><div class="kicker">05 / Toolkit</div><h2>Tools I work with.</h2></div></div><div class="skills"><div class="skill"><strong>Controls & systems</strong><span>LQR, LQG, PID, gain scheduling, state observers, system identification, nonlinear modelling</span></div><div class="skill"><strong>Scientific computing</strong><span>Python, NumPy, SciPy, MATLAB/Simulink, optimization, numerical simulation</span></div><div class="skill"><strong>Software & embedded</strong><span>C++17, Eigen, CMake, Google Test, Embedded C, UART/I²C</span></div><div class="skill"><strong>Signal processing & ML</strong><span>Kalman filtering, DSP, sensor fusion, PyTorch, TensorFlow, scikit-learn</span></div><div class="skill"><strong>Industrial automation</strong><span>Siemens TIA Portal, WinCC, ABB Control Builder, fieldbus, Profinet</span></div><div class="skill"><strong>Research methods</strong><span>Model benchmarking, ablation studies, reproducible evaluation, physics-guided learning</span></div></div></div></section>
-<section class="section" id="contact"><div class="wrap"><div class="contact"><div><div class="kicker">06 / Contact</div><h3>Let’s talk systems.</h3><p>Open to conversations about control, estimation, signal processing, and research collaborations.</p><p style="margin-top:12px">Delft, The Netherlands · <a href="mailto:saurav310304@gmail.com">saurav310304@gmail.com</a></p></div><div class="actions"><a class="btn primary" href="mailto:saurav310304@gmail.com">Email me ↗</a><a class="btn" href="https://www.linkedin.com/in/saurav-avachat-073778267" target="_blank" rel="noreferrer">LinkedIn ↗</a></div></div><div class="footer"><span>© <span id="year"></span> Saurav Avachat</span><span>Designed around curiosity, models, and real systems.</span></div></div></section>
+
+<section class="section" id="projects"><div class="wrap">
+<h2>Projects built around systems thinking.</h2>
+<p class="sub">Each project starts with a model and asks what can be learned or improved. Code is public where available.</p>
+<div class="list">
+<article class="row"><div><h3>Wind Turbine Control & State Observer</h3><div class="kind">Control systems</div></div><div><p>Nonlinear two-mass drivetrain simulation with below-rated MPPT, gain-scheduled pitch regulation, and a Luenberger observer for aerodynamic torque estimation.</p><ul class="chips"><li>Python</li><li>PID</li><li>Observers</li><li>NREL 5MW</li></ul></div><a class="src" href="https://github.com/saurav3103/Wind-Turbine-Control" target="_blank" rel="noreferrer">Source code</a></article>
+<article class="row"><div><h3>Adaptive Optics-Inspired Control</h3><div class="kind">Optics and control</div></div><div><p>Closed-loop optical simulation comparing PI, pseudoinverse-based control, and LQG. A Kalman filter with a harmonic disturbance model, tuned from the open-loop Welch PSD, recovers mean ROI intensity from 0.1224 (open loop) to 0.1501 under actuator lag, where static pseudoinverse control degraded.</p><ul class="chips"><li>Kalman filter</li><li>Welch PSD</li><li>LQG</li><li>Python</li></ul></div><a class="src" href="https://github.com/saurav3103/Adaptive-Optics-Control" target="_blank" rel="noreferrer">Source code</a></article>
+<article class="row"><div><h3>State-Space Control & Estimation Library</h3><div class="kind">C++ engineering</div></div><div><p>DARE-based LQR, discrete-time Kalman filter, Luenberger observer, and an LQG controller built on the separation principle, in a modular C++17/Eigen library. An 8-file Google Test suite checks closed-loop eigenvalue placement, estimator convergence from wrong initial conditions, and regulation from noisy outputs alone.</p><ul class="chips"><li>C++17</li><li>Eigen</li><li>CMake</li><li>Google Test</li></ul></div><a class="src" href="https://github.com/saurav3103/cpp-control-toolkit" target="_blank" rel="noreferrer">Source code</a></article>
+<article class="row"><div><h3>TV-LQR vs LQG Lane-Keeping</h3><div class="kind">Optimal control</div></div><div><p>Finite-horizon TV-LQR compared with Kalman-filter-based LQG on a nonlinear bicycle model, using paired noise and an open-loop optimal-control baseline.</p><ul class="chips"><li>Riccati recursion</li><li>CasADi / IPOPT</li><li>State estimation</li></ul></div><a class="src" href="https://github.com/saurav3103/TV-LQR-VS-LQG" target="_blank" rel="noreferrer">Source code</a></article>
+<article class="row"><div><h3>IMU Orientation Estimation</h3><div class="kind">Sensor fusion</div></div><div><p>Classical orientation filters (Madgwick, Mahony, EKF) compared with LSTM and Transformer models for roll, pitch, and yaw against motion-capture ground truth.</p><ul class="chips"><li>Python</li><li>Kalman filter</li><li>Deep learning</li></ul></div><a class="src" href="https://github.com/saurav3103/IMU-Orientation-Estimation" target="_blank" rel="noreferrer">Source code</a></article>
+<article class="row"><div><h3>Control-Theoretic Equilibrium Selection</h3><div class="kind">Optimization</div></div><div><p>LQR repurposed as a global-optimization proxy: at each local minimum it solves an ARE and ranks basins by &minus;trace(P). Spearman &rho; = 1.000 on 1D/2D Gaussian wells and Rastrigin functions (up to 11 wells), then validated on 3-link planar robot IK selection (~60 candidate configurations).</p><ul class="chips"><li>MATLAB</li><li>ARE</li><li>Robot IK</li></ul></div><a class="src" href="https://github.com/saurav3103/Control-Theoretic-Equilibrium-Selection-CTES-" target="_blank" rel="noreferrer">Source code</a></article>
+<article class="row"><div><h3>PLC Digital Twin & HIL Simulation</h3><div class="kind">Industry project, Siemens</div></div><div><p>Real-time S7-1200 digital twin of discrete-state control logic for nine automation scenarios, with hardware-in-the-loop simulation to validate state transitions before deployment, plus a browser-based interface with a PCS 7 DCS simulation layer.</p><ul class="chips"><li>Siemens PLC</li><li>HIL</li><li>Automation</li></ul></div><span class="src none">Industry work</span></article>
+</div>
+</div></section>
+
+<section class="section" id="experience"><div class="wrap">
+<h2>Industry experience.</h2>
+<p class="sub">Working in real automation environments shaped how I approach modelling, testing, and deployment.</p>
+<div class="tl"><div class="date">Jan – May 2026</div><div><h3>Digitalization and Automation Intern</h3><div class="org">Siemens Ltd., Digital Industries</div><p>Built an S7-1200 digital twin and browser-based simulation workflows for control-logic validation. Contributed to the SiTrain LMS operator-training platform (multi-role architecture, Supabase backend, Android APK).</p></div></div>
+<div class="tl"><div class="date">May – Aug 2025</div><div><h3>Distributed Control Systems & Automation Intern</h3><div class="org">ABB Ltd., Process Automation</div><p>Developed and validated control logic for a cold rolling mill DCS, modernized HMI displays, and integrated diagnostic visibility with process data flows.</p></div></div>
+<div class="tl" style="border-bottom:1px solid var(--line)"><div class="date">May – Jul 2024</div><div><h3>Technical Embedded Systems Intern</h3><div class="org">Godrej & Boyce, Security Solutions Design</div><p>Prototyped embedded control logic for a smart locking system on the TI MSPM0G3507 microcontroller over UART and I²C.</p></div></div>
+</div></section>
+
+<section class="section" id="research"><div class="wrap">
+<h2>Research with physical context.</h2>
+<p class="sub">Computational methods that respect the structure of the systems generating the data.</p>
+<div class="duo">
+<article><h3>Advanced Materials and Devices Laboratory</h3><div class="kind">Jeonbuk National University, research intern</div><p>Physics-guided ML models (Random Forest, XGBoost, physics-guided XGBoost) for electrochemical sensor response prediction: MAE 0.0317, RMSE 0.0572, Pearson r 0.9757. Contributed to a manuscript under review at <em>Measurement</em>.</p></article>
+<article><h3>MedIA Lab undergraduate thesis</h3><div class="kind">VNIT Nagpur</div><p>Benchmarked seven Mask R-CNN encoder-decoder variants for oropharyngeal tumour segmentation, reaching Dice > 0.75 and confidence > 0.95 across T1&ndash;T4 tumour stages, with an ablation study isolating which architectural changes drove the gains.</p></article>
+</div>
+<h3 class="sect">Education</h3>
+<div class="duo" style="margin-top:18px">
+<article><h3>Delft University of Technology</h3><div class="kind">2026–2028</div><p>MSc Systems & Control Engineering, Delft Center for Systems and Control. Focus: control theory, optimization, statistical signal processing.</p></article>
+<article><h3>VNIT Nagpur</h3><div class="kind">BTech, Electronics & Communication Engineering</div><p>CGPA 9.18/10, ranked 3rd of 120. Minor in VLSI (9.53/10). Coursework in control systems, DSP, adaptive and biomedical signal processing, and machine learning.</p></article>
+</div>
+<h3 class="sect">Publications</h3>
+<div style="margin-top:14px">
+<div class="pub"><h3>Machine Learning-Assisted Optimization of High-Performance ZnO@Graphene Oxide Sensors for Trace Metal Ion Detection</h3><p>Eun-Bi Kim, S. Avachat, S. Ameen, A.S. Akhtar. <em>Measurement</em> (Elsevier), under review, 2026.</p></div>
+<div class="pub" style="border-bottom:1px solid var(--line)"><h3>Physics-Guided Machine Learning Optimization of ZIF-8/Co–N–C Nanocomposite Sensors for Electrochemical Detection of Cr(III) and Hg(II)</h3><p>Manuscript in preparation, 2026.</p></div>
+</div>
+</div></section>
+
+<section class="section" id="toolkit"><div class="wrap">
+<h2>Tools I work with.</h2>
+<dl>
+<dt>Controls and systems</dt><dd>LQR, LQG, PID, gain scheduling, state observers, system identification, nonlinear modelling</dd>
+<dt>Scientific computing</dt><dd>Python, NumPy, SciPy, MATLAB/Simulink, optimization, numerical simulation</dd>
+<dt>Software and embedded</dt><dd>C++17, Eigen, CMake, Google Test, Embedded C, TI MSPM0, Arduino, ESP32, UART/I²C</dd>
+<dt>Signal processing and ML</dt><dd>Kalman filtering (EKF, complementary filters), DSP, sensor fusion (IMU, AHRS), quaternion algebra, PyTorch, TensorFlow, scikit-learn</dd>
+<dt>Industrial automation</dt><dd>Siemens TIA Portal, WinCC, ABB Control Builder, fieldbus, Profinet</dd>
+<dt>Research methods</dt><dd>Model benchmarking, ablation studies, reproducible evaluation, physics-guided learning</dd>
+</dl>
+</div></section>
+
+<section class="section contact" id="contact"><div class="wrap">
+<h2>Let’s talk systems.</h2>
+<p class="sub">Open to conversations about control, estimation, signal processing, and research collaborations. Based in Delft, the Netherlands.</p>
+<div class="actions"><a class="btn primary" href="mailto:saurav310304@gmail.com">saurav310304@gmail.com</a><a class="btn" href="https://www.linkedin.com/in/saurav-avachat-073778267" target="_blank" rel="noreferrer">LinkedIn</a><a class="btn" href="https://github.com/saurav3103" target="_blank" rel="noreferrer">GitHub</a></div>
+</div></section>
 </main>
+<footer class="footer"><div class="wrap">© <span id="year"></span> Saurav Avachat</div></footer>
+
 <script>
 const menu=document.getElementById('menu'),links=document.getElementById('navlinks');
-menu.addEventListener('click',()=>links.classList.toggle('open'));
-links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>links.classList.remove('open')));
+menu.addEventListener('click',()=>menu.setAttribute('aria-expanded',links.classList.toggle('open')));
+links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{links.classList.remove('open');menu.setAttribute('aria-expanded','false')}));
 document.getElementById('year').textContent=new Date().getFullYear();
+// Scroll spy
+const secs=[...document.querySelectorAll('main section[id]')];
+const spy=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)links.querySelectorAll('a').forEach(a=>a.setAttribute('aria-current',a.getAttribute('href')==='#'+e.target.id))}),{rootMargin:'-40% 0px -55% 0px'});
+secs.forEach(s=>spy.observe(s));
+// Live scalar Kalman filter: random-walk model tracking a noisy sine
+(()=>{
+const cv=document.getElementById('kf'),ctx=cv.getContext('2d'),N=170,R=.16,Q=.02;
+let t=0,xh=0,P=1,tr=[],ms=[],es=[],W,H;
+const gauss=()=>Math.sqrt(-2*Math.log(1-Math.random()))*Math.cos(2*Math.PI*Math.random());
+function size(){const d=devicePixelRatio||1;W=cv.clientWidth;H=cv.clientHeight;cv.width=W*d;cv.height=H*d;ctx.setTransform(d,0,0,d,0,0)}
+function step(){t+=.07;const x=Math.sin(t)+.35*Math.sin(2.3*t),z=x+Math.sqrt(R)*gauss();
+P+=Q;const K=P/(P+R);xh+=K*(z-xh);P*=1-K;
+tr.push(x);ms.push(z);es.push(xh);if(tr.length>N){tr.shift();ms.shift();es.shift()}}
+const X=i=>i/(N-1)*W,Y=v=>H/2-v*H/4.2;
+function line(a,c,w){ctx.beginPath();a.forEach((v,i)=>i?ctx.lineTo(X(i),Y(v)):ctx.moveTo(X(i),Y(v)));ctx.strokeStyle=c;ctx.lineWidth=w;ctx.stroke()}
+function draw(){ctx.clearRect(0,0,W,H);ctx.strokeStyle='rgba(154,174,198,.15)';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(0,H/2);ctx.lineTo(W,H/2);ctx.stroke();
+line(tr,'#5d7392',1.5);ctx.fillStyle='#f2b866';ms.forEach((v,i)=>{ctx.beginPath();ctx.arc(X(i),Y(v),2,0,7);ctx.fill()});line(es,'#6ee7f9',2.5)}
+size();addEventListener('resize',()=>{size();draw()});
+for(let i=0;i<N;i++)step();draw();
+if(!matchMedia('(prefers-reduced-motion:reduce)').matches){let last=0,vis=true;
+new IntersectionObserver(e=>vis=e[0].isIntersecting).observe(cv);
+(function loop(ts){if(vis&&ts-last>40){last=ts;step();draw()}requestAnimationFrame(loop)})(0)}
+})();
 </script>
-</body></html>
+</body>
+</html>
